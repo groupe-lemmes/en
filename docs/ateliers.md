@@ -40,7 +40,7 @@ Workshop 2 was articulated in three moments, first the presentation of two recen
 
 Then, to complement the presentations of lemmatization projects and tools in Workshop 1 (Collatinus, CompHistSem, Omnia, Pandora, Palm), the precursor project "Opera latina" (LASLA), was presented by Dominique Longrée and Margherita Fantoli (Université de Liège). Finally, there was a lively discussion on the implementation of comparative analysis of different parameters and lemmatizers in medieval languages. A consensus was reached on the need for a lemmatized corpus (completely, right down to the final product) and verified (possibly by several different people), to be able to seriously evaluate the different tools, as well as the need for each tool's data description (label sets, formats...) with a view to arriving at a common format.
 
-[Download the minutes and documents related to Workshop 2](/assets/doc/Workshop-2-[05.06.2018].zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
+[Download the minutes and documents related to Workshop 2](/assets/doc/Atelier-2-[05.06.2018].zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
 
 ---
 
@@ -49,7 +49,7 @@ Then, to complement the presentations of lemmatization projects and tools in Wor
 
 Workshop 3 aimed to continue developing the actions listed above (evaluation, dissemination, training). This was an opportunity for the various project/tool holders to exchange views on their technical parameters and corpora. The concrete experience of lemmatizing the multilingual corpus of medieval Burgundian inscriptions was presented and discussed, to help establish an analysis model. Recent advances in tools that have developed parameters for medieval Latin were also presented (Collatinus, Hydra, PALM).
 
-[Download the minutes and documents related to Workshop 3](/assets/doc/Workshop-3-[10.12.2018].zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
+[Download the minutes and documents related to Workshop 3](/assets/doc/Atelier-3-[10.12.2018].zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
 
 ---
 
@@ -58,5 +58,5 @@ Workshop 3 aimed to continue developing the actions listed above (evaluation, di
 
 During Workshop 4, in addition to a historiographical and theoretical introduction, participants were offered the opportunity to discover a number of key tools through practical exercises. Initially planned for 15, the workshop ended up welcoming 21 participants, given the interest aroused by this training course. The team of trainers included 8 lecturers and made all the teaching materials available to participants (user guides, pre-processed corpora, exemplars, slideshows, etc.). The wide range of participants - from Master's students to senior lecturers and researchers, doctoral students, post-doctoral fellows and engineers - shows that the needs in this field are not confined to "academic" medievalists, historians and linguists, but also to the commercial managers of digital publishing platforms who may have to deal with medieval texts. For the rest of the group's activities, lemmatization is envisaged as an integral part of the training courses organized by COSME², which integrate this fundamental operation into a wider process that extends from the constitution of a corpus to its statistical exploitation.
 
-[Download the minutes and documents related to Workshop 4](/assets/doc/Workshop-4-[17.06.2019].zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
+[Download the minutes and documents related to Workshop 4](/assets/doc/Atelier-4-[17.06.2019].zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
 
