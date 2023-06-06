@@ -37,6 +37,23 @@ a:not([class]):hover {
  color:#65A838;
 }
 
+/* f - langage link for internationalisation (on left top)  */
+
+div.block-i18n {
+margin-top: 10px;
+margin-right: 10px;
+}
+
+
+a.link-i18n {
+font-size: 17px;
+color: grey;
+}
+
+a.link-i18n:hover {
+text-decoration: underline;
+}
+
 /* 1.2 - Backgrounds */
 
 /* a - left side bar background */

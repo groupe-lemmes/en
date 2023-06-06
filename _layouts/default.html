@@ -47,8 +47,8 @@ layout: table_wrappers
         <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
       </a>
     </div>
+    <div class="block-i18n"><a href="#" class="link-i18n">fr</a> • <a href="/en" class="link-i18n">en</a></div>
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
-      <div><a href="docs/glossaire.html">fr</a><a href="/docs/glossaire.html">en</a></div>
       {% if site.just_the_docs.collections %}
         {% assign collections_size = site.just_the_docs.collections | size %}
         {% for collection_entry in site.just_the_docs.collections %}
@@ -75,7 +75,7 @@ layout: table_wrappers
       {% if site.search_enabled != false %}
         <div class="search">
           <div class="search-input-wrap">
-            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search" aria-label="Search" autocomplete="off">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Rechercher sur le site" aria-label="Rechercher sur le site" autocomplete="off">
             <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
           </div>
           <div id="search-results" class="search-results"></div>
