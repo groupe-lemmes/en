@@ -1,23 +1,21 @@
 ---
 layout: default
-title: Accueil
+title: Home
 nav_order: 1
 tagline: COSME2-FAIR
 description: "Consortium Sources Médiévales 2 - FAIR"
 permalink: /
 ---
 
-# Groupe de travail «Lemmes»
+# Working group «Lemmes»
 {: .fs-9 }
 
-Cet espace est dédié aux activités du groupe de travail "Lemmes" du consortium COSME² (Consortium Sources Médiévales 2). 
+This website is dedicated to the activities of the "Lemmes" working group of the COSME² consortium (Consortium Sources Médiévales 2). 
 {: .fs-6 .fw-300 }
 
 ---
 
-ENGLISH
-
-L’un des changements importants dans la recherche en histoire médiévale, produit par la multiplication des numérisations des textes médiévaux, est la possibilité de travailler sur des très larges corpus, d’y appliquer les méthodes statistiques et l’analyse sémantique structurée. En postulant la relation existant entre le sens des mots et les changements historiques, à l’instar de la théorie des champs sémantiques de Jost Trier (1894-1970), l’historien est à même de reconstituer la logique d’un système social de représentation manifesté par la sélection des vocables utilisés et mis en relation entre eux.
+One of the major changes in medieval history research, brought about by the increasing digitization of medieval texts, is the possibility of working on very large corpora, applying statistical methods and structured semantic analysis. By postulating the relationship between the meaning of words and historical changes, following the example of Jost Trier's (1894-1970) theory of semantic fields, the historian is able to reconstruct the logic of a social system of representation manifested by the selection of vocables used and related to each other.
 
 Dans le cas des langues à déclinaison et à forte variation orthographique, comme celles employées dans l’Occident médiéval (latin et langues vernaculaires), toute ambition de développement de procédures de recherche formalisées et assistées informatiquement implique la lemmatisation des corpus utilisés, c’est-à-dire, le regroupement des fréquences des différentes formes d’un mot sous leur lemme. Au cours des dernières années, plusieurs équipes européennes ce sont attelées à la création de lemmatiseurs (par exemple, à l’université de Francfort, [le eHumanities Desktop](https://www.texttechnologylab.org/applications/ehumanities-desktop/){:target="_blank"} (accès sous demande), qui propose [un corpus médiolatin lemmatisé](https://lta.bbaw.de/lexicon/fll/sl){:target="_blank"}). En France, deux jeux de paramètres propres aux textes médiévaux, basées sur le logiciel [TreeTagger](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/){:target="_blank"}, ont vu le jour simultanément, à partir de 2009, avec des résultats encourageants et toujours en cours de perfectionnement : le tokeniseur et le jeu de paramètres du latin médiéval élaborés par l’équipe de [l’ANR OMNIA (Outils et Méthodes Numériques pour l'Interrogation et l'Analyse des textes médiolatins)](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"} (dir. A. Guerreau - IRHT, EnC, Artehis)  et le lemmatiseur du moyen anglais, du moyen français et du latin, conçu par l’équipe du projet [PALM (Plate- forme d’analyse linguistique médiévale)](http://palm.huma-num.fr/PALM/){:target="_blank"} (accès sous demande) (dir. J.-Ph. Genet - Lamop) .
 
