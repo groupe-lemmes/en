@@ -1,0 +1,11 @@
+remote_theme: pmarsceill/just-the-docs
+logo: "/assets/images/logo.png"
+title: Lemmes - working group COSME2
+tagline: Lemmatization of medieval texts
+description: This website is dedicated to the activities of the "Lemmes" working group of the COSME² consortium.
+url: https://groupe-lemmes.github.io/en
+author: group Lemmes
+social:
+  name: Lemmes - working group COSME2
+  links:
+    - https://github.com/groupe-lemmes
