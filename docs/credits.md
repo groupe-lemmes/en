@@ -9,10 +9,10 @@ nav_exclude: true
 
 ---
 
-Les travaux du Groupe de travail "Lemmes" du Consortium Sources médiévales 2 (COSME²) ont été financés par l'[IR Huma-Num](https://www.huma-num.fr/){:target="_blank"} du CNRS.
+The work of the "Lemmes" working group of the Consortium Sources médiévales 2 (COSME²) has been funded by the [IR Huma-Num](https://www.huma-num.fr/){:target="_blank"} of the CNRS.
 
-Responsable scientifique: [Eliana Magnani](https://www.pantheonsorbonne.fr/page-perso/emagnani){:target="_blank"} (CNRS - LaMOP)
+Scientific director: [Eliana Magnani](https://www.pantheonsorbonne.fr/page-perso/emagnani){:target="_blank"} (CNRS - LaMOP)
 
-Concepteur/éditeur du site: [Andrey Grunin](https://cv.hal.science/andrey-grunin){:target="_blank"} (CNRS - CIHAM)
+Site designer/editor: [Andrey Grunin](https://cv.hal.science/andrey-grunin){:target="_blank"} (CNRS - CIHAM)
 
 Contact: eliana.magnani[at]univ-paris1.fr

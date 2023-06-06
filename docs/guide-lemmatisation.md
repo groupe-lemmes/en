@@ -18,75 +18,75 @@ nav_order: 3
 
 ---
 
-Contributeurs:
+Contributors:
 {: .lh-tight}
 - Eliana Magnani
 - Nicolas Perreaux
 - Ariane Pinche
 {: .fs-4 .fw-300 .lh-tight}
 
-## Qu’est-ce que la lemmatisation?
+## What is lemmatization?
 
-La lemmatisation est le processus de déflexionalisation des mots pour déterminer leur lemme (comme dans une entrée de dictionnaire). Les mots flexionnés sont appelés lexèmes.
+Lemmatization is the process of deflexionizing words to determine their lemma (as in a dictionary entry). Flexionized words are called lexemes.
 
-Dans le cas des langues flexionnelles et à forte variation graphique, comme celles employées dans l’Occident médiéval – le latin et les langues vernaculaires –, le développement de procédures de recherche formalisées et assistées informatiquement implique la lemmatisation des textes utilisés. Ce procédé – manuel, semi-automatisé ou automatisé –, n’est pas chose nouvelle, mais au cours des dernières années, plusieurs lemmatiseurs ou de paramètres pour la lemmatisation des langues médiévales ont été créés.
+In the case of inflectional languages with high graphic variation, such as those used in the medieval West - Latin and vernacular languages - the development of formalized, computer-aided search procedures involves lemmatizing the texts used. This process - whether manual, semi-automated or automated - is nothing new, but in recent years several lemmatizers or parameters for lemmatizing medieval languages have been created.
 
-## Pour quoi faire? 
+## What for? 
 
-La lemmatisation s’inscrit dans le champ du traitement automatique du langage naturel (TAL/NPL). Il s’agit d’une opération nécessaire au préalable de différents types d’analyses de corpus textuels, de fouilles de texte/données (_Text_/_Data mining_), qu’elles soient d’ordre philologique ou historique.
+Lemmatization is part of the field of automatic natural language processing (NLP). It is a prerequisite for various types of textual corpus analysis and text/data mining, whether philological or historical.
 
-Lemmatiser et annoter la morphosyntaxe d'un corpus permet par la suite de l’interroger pour le trier ou en vue d’analyses statistiques, opérations, souvent, aussi bien nécessaires au linguiste, qu’à l’éditeur scientifique qu’à l’historien. Par exemple à partir d’un corpus lemmatisé, il est facile de constituer un glossaire qui répertorie sous une même entrée toutes les variations graphiques d’un mot, en opérant un tri à partir du lemme de l’annotation qui, lui, est unique pour chaque mot du lexique.
+Lemmatizing and annotating the morphosyntax of a corpus then enables it to be interrogated for sorting or statistical analysis, operations that are often just as necessary for the linguist, the scientific editor or the historian. For example, from a lemmatized corpus, it's easy to compile a glossary listing all the graphic variations of a word under a single entry, by sorting on the basis of the annotation lemma, which is unique for each word in the lexicon.
 
-L’analyse syntaxique d’un corpus étendu devient également possible pour détecter certains traits dialectaux. Par exemple, en ancien Picard, il arrive que le pronom personnel objet féminin se graphie le comme le pronom masculin, au lieu de la. L’annotation morphosyntaxique permet alors de calculer rapidement les statistiques d’apparition du phénomène dans les textes pour le dater ou déterminer les territoires où il est le plus fréquent. À l’échelle d’un texte, ces calculs permettent à l’éditeur de savoir si le phénomène est à la marge de son corpus ou pas, pour décider de corriger ou de conserver dans son édition la graphie en déterminant si elle relève du trait dialectal ou de l’erreur de copie.
+Syntactic analysis of an extended corpus is also possible to detect certain dialectal features. For example, in Old Picard, the feminine personal object pronoun is sometimes spelled le like the masculine pronoun, instead of la. Morphosyntactic annotation can then be used to quickly calculate the statistics for the appearance of this phenomenon in texts, in order to date it or determine the territories where it is most frequent. At text level, these calculations enable the editor to determine whether or not the phenomenon is marginal to his corpus, and to decide whether to correct or retain the spelling in his edition by determining whether it is a dialectal trait or a copying error.
 
-Appliquée à un corpus textuel diachroniques, relatif à une entité spatiale précise (une région, par exemple) ou regroupant plusieurs de ces entités (l’ensemble des régions de l’Europe occidentale, par exemple), la lemmatisation permet de l’analyser du point de vue de la constitution et de l’évolution des champs sémantiques et de nourrir ainsi les interprétations historiques. La fréquence d’un mot, son association avec d’autres termes – les cooccurrences –, leur distribution dans la chronologie et dans différents espaces, sont autant d’éléments qui deviennent ainsi passibles d’être soumis à des observations empiriques et à des analyses statistiques. Il est possible alors d’évaluer les changements lexicaux et sémantiques en les corrélant à d’autres phénomènes historiques contemporains, de situer dans le temps et dans l’espace des innovations linguistiques et sémantiques inconnues ou encore de découvrir des associations lexicales inattendues. 
+Applied to a diachronic textual corpus, relating to a precise spatial entity (a region, for example) or grouping together several such entities (all the regions of Western Europe, for example), lemmatization makes it possible to analyze it from the point of view of the constitution and evolution of semantic fields, and thus nourish historical interpretations. The frequency of a word, its association with other terms - co-occurrences - and their distribution in chronology and in different spaces, are all elements that can be subjected to empirical observation and statistical analysis. It is then possible to evaluate lexical and semantic changes by correlating them with other contemporary historical phenomena, to situate unknown linguistic and semantic innovations in time and space, or to discover unexpected lexical associations.
 
-## Quels outils?
+## Which tools?
 
-D’un point de vue technique, la lemmatisation automatique ou semi-automatique regroupe plusieurs opérations. Ces opérations interviennent après l’acquisition du ou des textes dans un format numérisé élémentaire (soit grâce à un fichier déjà disponible, soit grâce à une saisie manuelle, ou encore à un processus d’OCR/HTR). Les principales étapes de la lemmatisation proprement dite sont la tokenisation, c’est-à-dire le découpage du texte par lexème, au cours de laquelle le texte peut être pré-formaté selon les choix et besoins des concepteurs des outils (par exemple, nettoyage des caractères spéciaux, séparation d’enclitiques) ; l’étiquetage morphosyntaxique des formes (_POS tagging = part-of-speech tagging_) avec un jeux d’étiquettes très variable d’un outil à autre ; et le regroupement des formes sous le lemme correspondant. Plusieurs difficultés doivent être surmontées dans ce processus, notamment la désambiguïsation des homographes et les variations graphiques des formes.
+From a technical point of view, automatic or semi-automatic lemmatization involves a number of operations. These operations take place after the acquisition of the text(s) in an elementary digitized format (either through an already available file, or through manual input, or through an OCR/HTR process). The main stages in the lemmatization process are tokenization, i.e. the breakdown of the text by lexeme, during which the text can be pre-formatted according to the choices and needs of the tool designers (e.g. cleaning up of special characters, separation of enclitics); morphosyntactic tagging of forms (_POS tagging = part-of-speech tagging_) with a set of tags that varies widely from one tool to another; and the grouping of forms under the corresponding lemma. There are a number of difficulties to be overcome in this process, including homograph disambiguation and graphical variation of forms.
 
-Les outils actuels pour associer aux formes une étiquette (POS) correcte, se partagent en deux groupes principaux.
+Current tools for associating a correct label (POS) with forms fall into two main groups.
 
-Les premiers utilisent des tagueurs probabilistes basés sur un lexique et des règles prédéfinies associés ou pas à des entraînements successifs qui améliorent la reconnaissance des formes et des lemmes (p. ex. TreeTagger avec les paramètres pour le latin médiéval OMNIA).
+The first use probabilistic taggers based on a predefined lexicon and rules, combined or not with successive training to improve pattern and lemma recognition (e.g. TreeTagger with parameters for medieval Latin OMNIA).
 
-Les seconds sont basés sur les technologies plus récentes dites des « réseaux de neurones » (ou _deep learning_), des algorithmes qui, à partir d’un corpus pré-annoté (ou corpus d’entraînement) visent à apprendre l’application à créer les lemmes qui ne figurent pas dans le corpus d’entraînement, en fonction de leur représentation sémantique (les mots coocurrents)  (p. ex. Pie, Hydra).
+The latter are based on more recent technologies known as "neural networks" (or _deep learning_), algorithms which, starting from a pre-annotated corpus (or training corpus), aim to teach the application to create lemmas which do not appear in the training corpus, according to their semantic representation (co-occurring words) (e.g. Pie, Hydra).
 
-Dans les deux cas, un travail manuel en amont est nécessaire, l’établissement d’un lexique et des règles, ou l’annotation d’un corpus. En aval aussi l’intervention manuelle est nécessaire dans les deux cas pour corriger les corpus annotés par les lemmatiseurs
+In both cases, manual work is required upstream, either to establish a lexicon and rules, or to annotate a corpus. Downstream, too, manual intervention is required in both cases to correct the corpora annotated by the lemmatizers.
 
-## Par où commencer?
+## Where to start?
 
-La lemmatisation comprend plusieurs étapes principales :
-- L'acquisition du texte (ou du corpus de textes) numérisé est un préalable à la lemmatisation. Plusieurs cas de figure se présentent : utilisation de fichiers préexistants, saisie manuelle, ou encore recours aux méthodes automatiques de reconnaissance optique de caractères imprimés ou dactylographiés (OCR - _Optical Character Recognition_) ou d’écritures manuscrites (HTR - _Handwritten Text Recognition_).
-- La préparation des fichiers consiste, d’une part, dans leur enregistrement avec l’encodage UTF-8 et en .TXT en général, et d’autre part, dans le processus de post correction, notamment pour les textes acquis par OCR ou HTR.
-- La préparation des métadonnées réunies en général dans un fiichier .CSV, concerne en particulier les noms de fichiers et les datations.
-- La tokenisation consiste en la mise en forme souhaitée du texte (uniformisation des graphies, séparation ou pas des enclitiques, etc.), son découpage par lexème, un mot ou un signe de ponctuation par ligne.
-- La lemmatisation à proprement parler consiste en l’étiquetage morphosyntaxique des formes (_POS-tagging_ = _part-of-speech tagging_), soit l’attribution d’un POS à chaque token (substantif, adjectif, préposition, conjonction, ponctuation, etc., associés ou pas au mode, au cas, au nombre). Les jeux d’étiquettes varient d’un outil à l’autre, 9 étiquettes pour le latin médiéval dans OMNIA, 91 étiquettes pour le latin classique dans Collatinus, par exemple. L’attribution du lemme à chaque forme intervient le plus souvent après l’attribution du POS.
-- La recomposition des fichiers, avec les tokens, les lemmes et les métadonnées.
+Lemmatization comprises several main stages:
+- The acquisition of the digitized text (or corpus of texts) is a prerequisite for lemmatization. This can be done in a number of ways: using pre-existing files, manual input, or using automatic optical character recognition (OCR - _Optical Character Recognition_) or handwriting recognition (HTR - _Handwritten Text Recognition_).
+- The preparation of files consists, on the one hand, in saving them with UTF-8 encoding and in .TXT in general, and on the other hand, in the post-correction process, particularly for texts acquired by OCR or HTR.
+- The preparation of metadata, generally gathered in a .CSV file, concerns in particular file names and dates.
+- Tokenization consists of the desired formatting of the text (standardization of spelling, separation or not of enclitics, etc.), its division by lexeme, a word or a punctuation mark per line.
+- Actual lemmatization involves morphosyntactic tagging of forms (_POS-tagging_ = _part-of-speech tagging_), i.e. assigning a POS to each token (noun, adjective, preposition, conjunction, punctuation, etc., whether or not associated with mode, case or number). Label sets vary from one tool to another: 9 labels for Medieval Latin in OMNIA, 91 labels for Classical Latin in Collatinus, for example. The lemma for each form is usually assigned after the POS.
+- Recomposition of files, with tokens, lemmas and metadata.
 
-Voici l’exemple du traitement d’une inscription provenant de l’abbaye de Saint-Martin d’Autun, de la fin du IXe siècle, l’épitaphe de _Letbaldus_:
+Here's an example of the processing of an inscription from the Abbey of Saint-Martin in Autun, dating from the end of the 9th century, the epitaph of _Letbaldus_:
 
-- Acquisition du texte numérisé à partir de l’édition océrisée disponible sur la plateforme Persée. _Corpus des Inscriptions de la France Médiévale_, vol. 19 : Jura, Nièvre, Saône-et-Loire, éd. R. Favreau, J. Michaud et B. Mora, Paris, CNRS Éditions, 1997, p. 62, n° 7 ([https://www.persee.fr/doc/cifm_0000-0000_1997_cat_19_1](https://www.persee.fr/doc/cifm_0000-0000_1997_cat_19_1){:target="_blank"}).
+- Acquisition of digitized text from the digitized edition available on the Persée platform. _Corpus des Inscriptions de la France Médiévale_, vol. 19 : Jura, Nièvre, Saône-et-Loire, éd. R. Favreau, J. Michaud et B. Mora, Paris, CNRS Éditions, 1997, p. 62, n° 7 ([https://www.persee.fr/doc/cifm_0000-0000_1997_cat_19_1](https://www.persee.fr/doc/cifm_0000-0000_1997_cat_19_1){:target="_blank"}).
 
 ![](/assets/images/figures/figure1.jpeg){:width="90%" .d-block .mx-auto}
 
-- Le texte encodé en UTF-8, enregistré en .TXT, avec des élements de métadonnées simplifiées dans le titre du fichier (Date, Lieu, Référence de l’édition).
+- Text encoded in UTF-8, saved as .TXT, with simplified metadata elements in the file title (Date, Place, Edition reference).
 
 ![](/assets/images/figures/figure2.png){:width="70%" .d-block .mx-auto}
 
-- Extrait d’une partie du fichier .CSV avec les métadonnées complètes du corpus d’inscriptions.
+- Extract of a part of the .CSV file with the complete metadata of the corpus of inscriptions.
 
 ![](/assets/images/figures/figure3.png){:width="90%" .d-block .mx-auto}
 
-- Tokenisation (une ligne = un mot = un token), réalisée avec le tokenizer OMNIA (Renaud Alexandre), qui, entre autres, réalise aussi tout une série d’harmonisations du texte, comme le remplacement de « j » par « i », de « v » par « u »,  la séparation des enclitiques (_aquarumque_ = _aquarum_ + _que_), le remplacement les caractères accentués, la suppression des doubles espaces, entre autres ([https://glossaria.eu/lemmatisation/#page-content](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}).
+- Tokenization (one line = one word = one token), performed with the OMNIA tokenizer (Renaud Alexandre), which, among other things, also performs a whole series of text harmonizations, such as replacing "j" with "i", "v" with "u", separating enclitics (_aquarumque_ = _aquarum_ + _que_), replacing accented characters, deleting double spaces, etc. ([https://glossaria.eu/lemmatisation/#page-content](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}).
 
 ![](/assets/images/figures/figure4.png){:width="20%" .d-block .mx-auto}
 
-- Lemmatisation (_POS-tagging_), avec l’attribution dun POS (part of speech) à chaque token, et reconstitution du fichier, avec l’ajout des métadonnées (ici, seulement le nom du fichier). Le fichier contient ainsi, pour chaque mot/token (première colonne), le POS (deuxième colonne) et le lemme (troisième colonne).
+- Lemmatization (_POS-tagging_), with the assignment of a POS (part of speech) to each token, and reconstitution of the file, with the addition of metadata (here, only the file name). The file thus contains, for each word/token (first column), the POS (second column) and the lemma (third column).
 
 ![](/assets/images/figures/figure5.png){:width="70%" .d-block .mx-auto}
 
-## Bibliographie sélective
-(_dans l'ordre chronologique_)
+## Selective bibliography
+(_in chronological order_)
 {: .fs-3 .fw-300 .lh-tight}
 
 - Schmid H., “Part-of-Speech Tagging with Neural Networks”, _Proceedings of the 15th International Conferenceon Computational Linguistics (COLING-94)_, 1944.

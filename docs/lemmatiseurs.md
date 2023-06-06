@@ -18,154 +18,154 @@ nav_order: 4
 
 ---
 
-## Les lemmatiseurs et taggers
+## Lemmatizers and taggers
 
 ### TreeTagger
 {: .mb-3 }
 
-Le TreeTagger est un outil permettant d'annoter des textes avec des informations sur les parties du discours et les lemmes. Il a été développé par Helmut Schmid dans le cadre du projet TC à l'Institut de linguistique informatique de l'université de Stuttgart. Le TreeTagger a été utilisé avec succès pour annoter des textes allemands, anglais, français, italiens, danois, suédois, norvégiens, néerlandais, espagnols, bulgares, russes, portugais, biélorusses, ukrainiens, galiciens, grecs, chinois, swahili, slovaques, slovènes, latins, estoniens, polonais, persans, roumains, tchèques, coptes et vieux français. Il est adaptable à d'autres langues si un lexique et un corpus d'entraînement étiqueté manuellement sont disponibles. 
+ The TreeTagger is a tool for annotating text with part-of-speech and lemma information. It was developed by Helmut Schmid in the TC project at the Institute for Computational Linguistics of the University of Stuttgart. The TreeTagger has been successfully used to tag German, English, French, Italian, Danish, Swedish, Norwegian, Dutch, Spanish, Bulgarian, Russian, Portuguese, Belarusian, Ukrainian, Galician, Greek, Chinese, Swahili, Slovak, Slovenian, Latin, Estonian, Polish, Persian, Romanian, Czech, Coptic and old French texts and is adaptable to other languages if a lexicon and a manually tagged training corpus are available. 
 
-Page web: [TreeTagger](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/){:target="_blank"}
+Website: [TreeTagger](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/){:target="_blank"}
 
 ---
 
 ### Collatinus
 {: .mb-3 }
 
-Collatinus est à la fois un lemmatiseur et un analyseur morphologique de textes latins : il est capable, si on lui donne une forme déclinée ou conjuguée, de trouver quel mot il faudra chercher dans le dictionnaire pour avoir sa traduction dans une autre langue, ses différents sens, et toutes les autres données que fournit habituellement un dictionnaire.
+Collatinus is both a lemmatizer and a morphological analyzer for Latin texts: if given a declension or conjugation form, it can find out which word to look up in the dictionary to get its translation into another language, its different meanings, and all the other data a dictionary usually provides.
 
-En pratique, il est utile surtout au professeur de latin, qui peut ainsi très rapidement, à partir d’un texte hors-manuel, distribuer à ses élèves un texte inédit avec son aide lexicale. Les élèves s’en servent souvent pour lire plus facilement le latin lorsque leurs connaissances lexicales et morphologiques sont encore insuffisantes.
+In practice, it's especially useful for Latin teachers, who can quickly give their pupils a new text with lexical support, based on a text that's not in the textbook. Students often use it to read Latin more easily when their lexical and morphological knowledge is still insufficient.
 
-Page web: [Collatinus](https://outils.biblissima.fr/fr/collatinus/){:target="_blank"}
+Website: [Collatinus](https://outils.biblissima.fr/fr/collatinus/){:target="_blank"}
 
 ---
 
 ### spaCy
 {: .mb-3 }
 
-spaCy est une bibliothèque logicielle [Python](https://fr.wikipedia.org/wiki/Python_(langage)) de traitement automatique des langues (TAL/NLP). Elle permet d’implémenter différentes d’annotations linguistiques pour donner un aperçu de la structure grammaticale d'un texte (types de mots, parties du discours, relations des mots entre eux). Elle réalise la tokenisation, la lemmatisation, le POS-Tagging, parmi d’autres opérations avancées.
+spaCy is a [Python](https://fr.wikipedia.org/wiki/Python_(language)) software library for automatic language processing (NLP). It implements various linguistic annotations to provide an overview of the grammatical structure of a text (word types, parts of speech, word relationships). It performs tokenization, lemmatization, POS tagging and other advanced operations.
 
-Page web: [spaCy](https://spacy.io/usage/spacy-101){:target="_blank"}
+Website: [spaCy](https://spacy.io/usage/spacy-101){:target="_blank"}
 
 ---
 
 ### Pie (et Deucalion/Flask Pie)
 {: .mb-3 }
 
-Pie est un lemmatiseur indépendant de la langue implémenté en python et conçu pour les "langues riches en variations", dont le latin. C'est un outil d'apprentissage profond qui peut être entraîné et réentraîné avec des données au format TSV. En 2019, il semble être l'un des lemmatiseurs de pointe en termes de résultats. Il peut être entraîné conjointement sur des tâches de morphologie, de POS et de lemmatisation. 
+Pie is a language independant lemmatizer implemented in python and built for "variation-rich languages" which includes Latin. It's a deep learning tool that can be trained and retrained with data in TSV format. As of 2019, it seems to be one of the state-of-the-art lemmatizers in terms of results. It can be trained jointly on morphology, POS and lemmatization tasks. 
 
-Page web: [Pie (et Deucalion/Flask Pie)](https://wiki.digitalclassicist.org/Deucalion_and_Pie_lemmatizers){:target="_blank"}
+Website: [Pie (et Deucalion/Flask Pie)](https://wiki.digitalclassicist.org/Deucalion_and_Pie_lemmatizers){:target="_blank"}
 
 ---
 
 ### StanfordNLP
 {: .mb-3 }
 
-StanfordNLP est un logiciel Python d'analyse du langage naturel. Il contient des outils, qui peuvent être utilisés dans un pipeline, pour convertir une chaîne contenant un texte en langage humain en listes de phrases et de mots, pour générer des formes de base de ces mots, leurs parties du discours et leurs caractéristiques morphologiques, et pour donner une analyse de la dépendance de la structure syntaxique, qui est conçue pour être parallèle parmi plus de 70 langues, en utilisant le formalisme des dépendances universelles. En outre, il est capable d'appeler le paquet Java CoreNLP et d'en hériter des fonctionnalités supplémentaires, telles que l'analyse syntaxique des constituants, la résolution des coréférences et l'appariement des modèles linguistiques.
+StanfordNLP is a Python natural language analysis package. It contains tools, which can be used in a pipeline, to convert a string containing human language text into lists of sentences and words, to generate base forms of those words, their parts of speech and morphological features, and to give a syntactic structure dependency parse, which is designed to be parallel among more than 70 languages, using the Universal Dependencies formalism. In addition, it is able to call the CoreNLP Java package and inherits additonal functionality from there, such as constituency parsing, coreference resolution, and linguistic pattern matching.
 
-Page web: [StanfordNLP](https://stanfordnlp.github.io/stanfordnlp/){:target="_blank"}
+Website: [StanfordNLP](https://stanfordnlp.github.io/stanfordnlp/){:target="_blank"}
 
 ---
 
 ### WordNet (nltk)
 {: .mb-3 }
 
-WordNet® est une grande base de données lexicale de l'anglais. Les noms, les verbes, les adjectifs et les adverbes sont regroupés en ensembles de synonymes cognitifs (synsets), chacun exprimant un concept distinct. Les synsets sont reliés entre eux par des relations conceptuelles, sémantiques et lexicales. Le réseau de mots et de concepts significativement liés qui en résulte peut être parcouru à l'aide d'un navigateur. WordNet peut également être téléchargé gratuitement et publiquement. La structure de WordNet en fait un outil utile pour la linguistique informatique et le traitement du langage naturel.
+WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser. WordNet is also freely and publicly available for download. WordNet's structure makes it a useful tool for computational linguistics and natural language processing.
 
-Page web: [WordNet](https://wordnet.princeton.edu/){:target="_blank"}
+Website: [WordNet](https://wordnet.princeton.edu/){:target="_blank"}
 
 ---
 
 ### TextBlob
 {: .mb-3 }
 
-TextBlob est une bibliothèque Python (2 et 3) pour le traitement des données textuelles. Elle fournit une API simple permettant de se plonger dans des tâches courantes de traitement du langage naturel (NLP) telles que l'étiquetage des parties du discours, l'extraction de phrases nominales, l'analyse des sentiments, la classification, la traduction, et bien plus encore.
+TextBlob is a Python (2 and 3) library for processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, translation, and more.
 
-Page web: [TextBlob](https://textblob.readthedocs.io/en/dev/){:target="_blank"}
+Website: [TextBlob](https://textblob.readthedocs.io/en/dev/){:target="_blank"}
 
 ---
 
 ### MarMoT
 {: .mb-3 }
 
-MARMOT est une bibliothèque Python permettant de traiter des données multimodales composées à la fois d'images et de texte. Elle ne nécessite pas de pré-entraînement multimodal et peut traiter les observations de modalités manquantes. Ce repo est actuellement en construction et est dans un état très approximatif ; n'hésitez pas à nous contacter si vous avez des questions.
+MARMOT is a Python library for dealing with multimodal data consisting of both images and text. It does not require multimodal pretraining and it can deal with observations missing modalities. This repo is currently under construction and is in a very rough state; please feel free to reach out if you have any questions.
 
-Page web: [MarMoT](https://github.com/patrickywu/MARMOT){:target="_blank"}
+Website: [MarMoT](https://github.com/patrickywu/MARMOT){:target="_blank"}
 
 ---
 
 ### FastText
 {: .mb-3 }
 
-FastText est une bibliothèque libre, gratuite et légère qui permet aux utilisateurs d'apprendre les représentations de texte et les classificateurs de texte. Elle fonctionne sur du matériel standard et générique. Les modèles peuvent être réduits par la suite pour tenir sur des appareils mobiles.
+FastText is an open-source, free, lightweight library that allows users to learn text representations and text classifiers. It works on standard, generic hardware. Models can later be reduced in size to even fit on mobile devices.
 
-Page web: [FastText](https://fasttext.cc/){:target="_blank"}
+Website: [FastText](https://fasttext.cc/){:target="_blank"}
 
 ---
 
 ### LGeRM
 {: .mb-3 }
 
-LGeRM (Lemmes Graphies et Règles Morphologiques, prononcer "elle germe"), est un lemmatiseur conçu pour gérer la variation graphique historique du français. Il a été initialement développé pour le moyen français (1330-1500) puis adapté au français du XVIe et XVIIe. Il est aussi capable de traiter du français moderne. 
+LGeRM (Lemmes Graphies et Règles Morphologiques, pronounced "it sprouts"), is a lemmatizer designed to manage the historical graphical variation of French. It was initially developed for Middle French (1330-1500) and then adapted to 16th and 17th century French. It can also handle modern French. 
 
-Page web: [LGeRM](http://stella.atilf.fr/LGeRM/plateforme/){:target="_blank"}
+Website: [LGeRM](http://stella.atilf.fr/LGeRM/plateforme/){:target="_blank"}
 
 ---
 
 ### UDPipe
 {: .mb-3 }
 
-UDPipe est un pipeline entraînable pour la tokenisation, l'étiquetage, la lemmatisation et l'analyse des dépendances des fichiers CoNLL-U. UDPipe est indépendant de la langue et peut être entraîné à partir de données annotées au format CoNLL-U. Des modèles entraînés sont fournis pour presque toutes les banques d'arbres de l'UD. UDPipe est disponible sous forme de binaire pour Linux/Windows/OS X, de bibliothèque pour C++, Python, Perl, Java, C#, et de service web. Un paquet R CRAN tiers existe également. 
+UDPipe is a trainable pipeline for tokenization, tagging, lemmatization and dependency parsing of CoNLL-U files. UDPipe is language-agnostic and can be trained given annotated data in CoNLL-U format. Trained models are provided for nearly all UD treebanks. UDPipe is available as a binary for Linux/Windows/OS X, as a library for C++, Python, Perl, Java, C#, and as a web service. Third-party R CRAN package also exists. 
 
-Page web: [UDPipe](https://lindat.mff.cuni.cz/services/udpipe/){:target="_blank"}
+Website: [UDPipe](https://lindat.mff.cuni.cz/services/udpipe/){:target="_blank"}
 
 ---
 
 ### FreeLing
 {: .mb-3 }
 
-FreeLing est une bibliothèque C++ offrant des fonctionnalités d'analyse linguistique (analyse morphologique, détection d'entités nommées, étiquetage PoS, analyse syntaxique, désambiguïsation du sens des mots, étiquetage sémantique des rôles, etc.) pour une variété de langues (anglais, espagnol, portugais, italien, français, allemand, russe, catalan, galicien, croate, slovène, entre autres).
+FreeLing is a C++ library providing language analysis functionalities (morphological analysis, named entity detection, PoS-tagging, parsing, Word Sense Disambiguation, Semantic Role Labelling, etc.) for a variety of languages (English, Spanish, Portuguese, Italian, French, German, Russian, Catalan, Galician, Croatian, Slovene, among others).
 
-Page web: [FreeLing](https://nlp.lsi.upc.edu/freeling/index.php/){:target="_blank"}
+Website: [FreeLing](https://nlp.lsi.upc.edu/freeling/index.php/){:target="_blank"}
 
 ---
 
 ### CLTK
 {: .mb-3 }
 
-Le Classical Language Toolkit (CLTK) est une bibliothèque Python permettant le traitement du langage naturel (NLP) pour les langues de l'Eurasie pré-moderne. Des pipelines préconfigurés sont disponibles pour 19 langues.
+The Classical Language Toolkit (CLTK) is a Python library offering natural language processing (NLP) for the languages of pre–modern Eurasia. Pre-configured pipelines are available for 19 languages.
 
-Page web: [CLTK](http://cltk.org/){:target="_blank"}
+Website: [CLTK](http://cltk.org/){:target="_blank"}
 
-## Les jeux de paramètres
+## Parameter sets
 
-Jeux de paramètres et modèles pour les langues médiévales, principalement pour le latin et l’ancien français:
+Parameter sets and models for medieval languages, mainly Latin and Old French:
 
-- OMNIA (latin, en particulier latin médiéval; TreeTagger)
-- Lasla (latin; Pie, via le modèle Deucalion latin + Collatinus)
-- Achim Stein (anciens français; TreeTagger)
-- LatinCy (latin; Spacy: [https://huggingface.co/latincy](https://huggingface.co/latincy){:target="_blank"}; [https://spacy.io/universe/project/latincy](https://spacy.io/universe/project/latincy){:target="_blank"}; [https://arxiv.org/abs/2305.04365](https://arxiv.org/abs/2305.04365){:target="_blank"})
-- Deucalion (Ancien français; [https://zenodo.org/record/3237455](https://zenodo.org/record/3237455){:target="_blank"}; lemmes issus du Tobler‑Lommatzsch +  POS issus de Cattex; pour Pie)
-- Middle High German (moyen haut allemand; TreeTagger)
+- OMNIA (Latin, especially medieval Latin; TreeTagger)
+- Lasla (Latin; Pie, via the Deucalion latin + Collatinus)
+- Achim Stein (Old French; TreeTagger)
+- LatinCy (Latin; Spacy: [https://huggingface.co/latincy](https://huggingface.co/latincy){:target="_blank"}; [https://spacy.io/universe/project/latincy](https://spacy.io/universe/project/latincy){:target="_blank"}; [https://arxiv.org/abs/2305.04365](https://arxiv.org/abs/2305.04365){:target="_blank"})
+- Deucalion (Old French; [https://zenodo.org/record/3237455](https://zenodo.org/record/3237455){:target="_blank"}; lemmas from the Tobler‑Lommatzsch +  POS from  Cattex; for Pie)
+- Middle High German (Middle High German; TreeTagger)
 - PALM (TreeTagger)
-- Latin pour TreeTagger (TreeTagger: [https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/){:target="_blank"})
-- LiLa Lemma Bank (latin; pas de logiciel spécifique: [https://lila-erc.eu/lodview/data/id/lemma/LemmaBank](https://lila-erc.eu/lodview/data/id/lemma/LemmaBank){:target="_blank"})
-- Old French lemmatization (Ancien français; TreeTagger: [https://github.com/CristinaGHolgado/old-french-lemmatization](https://github.com/CristinaGHolgado/old-french-lemmatization){:target="_blank"})
-- eHumanities Desktop (latin; MarMoT [https://www.texttechnologylab.org/applications/ehumanities-desktop/](https://www.texttechnologylab.org/applications/ehumanities-desktop/){:target="_blank"})
+- Latin for TreeTagger (TreeTagger: [https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/){:target="_blank"})
+- LiLa Lemma Bank (Latin; no special software required: [https://lila-erc.eu/lodview/data/id/lemma/LemmaBank](https://lila-erc.eu/lodview/data/id/lemma/LemmaBank){:target="_blank"})
+- Old French lemmatization (Old French; TreeTagger: [https://github.com/CristinaGHolgado/old-french-lemmatization](https://github.com/CristinaGHolgado/old-french-lemmatization){:target="_blank"})
+- eHumanities Desktop (Latin; MarMoT [https://www.texttechnologylab.org/applications/ehumanities-desktop/](https://www.texttechnologylab.org/applications/ehumanities-desktop/){:target="_blank"})
 - Perseus TreeBank (latin; [https://github.com/PerseusDL/treebank_data/tree/master/v2.0/Latin](https://github.com/PerseusDL/treebank_data/tree/master/v2.0/Latin){:target="_blank"})
-- CLTK (plusieurs langues anciennes: latin; vieil anglais; moyen anglais; moyen haut allemand; etc.: [https://legacy.cltk.org/en/latest/index.html](https://legacy.cltk.org/en/latest/index.html){:target="_blank"}) 
+- CLTK (several ancient languages: Latin; Old English; Middle English; Middle High German; etc.: [https://legacy.cltk.org/en/latest/index.html](https://legacy.cltk.org/en/latest/index.html){:target="_blank"}) 
 
 
-## Les outils de post-traitement en lemmatisation
+## Lemmatization post-processing tools
 
 ### Pyrrha
 {: .mb-3 }
 
-Pyrrha est une simple Python Flask WebApp pour accélérer la post-correction de corpus lemmatisés et morpho-syntaxiquement tagués.
+Pyrrha is a simple Python Flask WebApp for accelerating the post-correction of lemmatized and morpho-syntactically tagged corpora.
 
-Page web: [Pyrrha](https://dh.chartes.psl.eu/pyrrha){:target="_blank"}
+Website: [Pyrrha](https://dh.chartes.psl.eu/pyrrha){:target="_blank"}
 
-[Télécharger la présentation Pyrrha](/assets/doc/Pyrrha.zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
+[Download the Pyrrha presentation](/assets/doc/Pyrrha.zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
 
 
 
