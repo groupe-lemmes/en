@@ -33,7 +33,7 @@ In the case of inflectional languages with high graphic variation, such as those
 
 ## What for? 
 
-Lemmatization is part of the field of automatic natural language processing (NLP). It is a prerequisite for various types of textual corpus analysis and text/data mining, whether philological or historical.
+Lemmatization is part of the field of automatic natural language processing (NLP). It is a prerequisite for various types of textual corpus analysis and _text/data mining_, whether philological or historical.
 
 Lemmatizing and annotating the morphosyntax of a corpus then enables it to be interrogated for sorting or statistical analysis, operations that are often just as necessary for the linguist, the scientific editor or the historian. For example, from a lemmatized corpus, it's easy to compile a glossary listing all the graphic variations of a word under a single entry, by sorting on the basis of the annotation lemma, which is unique for each word in the lexicon.
 
