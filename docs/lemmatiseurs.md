@@ -148,7 +148,7 @@ Parameter sets and models for medieval languages, mainly Latin and Old French:
 
 OMNIA was designed to be implemented in [TreeTagger](https://www.cis.lmu.de/~schmid/tools/TreeTagger/){:target="_blank"}, which was developed for morphosyntactic tagging (_POS - Part of Speech_), but which also supports lemmatization. OMNIA provides both the parameters required for use with medieval Latin texts, and the files needed to recreate these parameters.
 
-Web page: [OMNIA](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}
+Website: [OMNIA](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}
 
 ---
 
@@ -196,7 +196,7 @@ The PALM platform (Plateforme d'analyse linguistique médiévale) is designed fo
 
 Through flexible text annotation, it enables semi-automated orthographic standardization and lemmatization of medieval texts in English, French and Latin. 
 
-Web page: [PALM](http://palm.huma-num.fr/PALM/){:target="_blank"}
+Website: [PALM](http://palm.huma-num.fr/PALM/){:target="_blank"}
 
 [Download PALM presentation](/assets/doc/Palm.zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
 
