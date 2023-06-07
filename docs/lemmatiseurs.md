@@ -144,7 +144,7 @@ Parameter sets and models for medieval languages, mainly Latin and Old French:
 ### OMNIA
 {: .mb-3 }
 
-(Latin, especially medieval Latin; TreeTagger)[https://glossaria.eu/lemmatisation/#page-content](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}
+(Latin, especially medieval Latin; TreeTagger) [https://glossaria.eu/lemmatisation/#page-content](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}
 
 OMNIA was designed to be implemented in [TreeTagger](https://www.cis.lmu.de/~schmid/tools/TreeTagger/){:target="_blank"}, which was developed for morphosyntactic tagging (_POS - Part of Speech_), but which also supports lemmatization. OMNIA provides both the parameters required for use with medieval Latin texts, and the files needed to recreate these parameters.
 
@@ -155,7 +155,7 @@ Website: [OMNIA](https://glossaria.eu/lemmatisation/#page-content){:target="_bla
 ### Lasla 
 {: .mb-3 }
 
-(Latin; Pie, via Latin Deucalion + Collatinus model)[https://www.lasla.uliege.be/cms/c_8570393/fr/lasla-logiciels](https://www.lasla.uliege.be/cms/c_8570393/fr/lasla-logiciels){:target="_blank"}
+(Latin; Pie, via Latin Deucalion + Collatinus model) [https://www.lasla.uliege.be/cms/c_8570393/fr/lasla-logiciels](https://www.lasla.uliege.be/cms/c_8570393/fr/lasla-logiciels){:target="_blank"}
 
 ---
 
@@ -190,7 +190,7 @@ Website: [OMNIA](https://glossaria.eu/lemmatisation/#page-content){:target="_bla
 ### PALM 
 {: .mb-3 }
 
-(TreeTagger)[http://palm.huma-num.fr/PALM/](http://palm.huma-num.fr/PALM/){:target="_blank"}
+(TreeTagger) [http://palm.huma-num.fr/PALM/](http://palm.huma-num.fr/PALM/){:target="_blank"}
 
 The PALM platform (Plateforme d'analyse linguistique médiévale) is designed for the processing of medieval texts (MEDITEXT): it is a system aimed less at philologists than at historians or philosophers who, wishing to undertake lexicometric or semantic research, come up against the absence of a standardized orthography and the geographical and chronological variability of medieval lexicons.
 
