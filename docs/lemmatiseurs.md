@@ -141,20 +141,106 @@ Website: [CLTK](http://cltk.org/){:target="_blank"}
 
 Parameter sets and models for medieval languages, mainly Latin and Old French:
 
-- OMNIA (Latin, especially medieval Latin; TreeTagger)
-- Lasla (Latin; Pie, via the Deucalion latin + Collatinus)
-- Achim Stein (Old French; TreeTagger)
-- LatinCy (Latin; Spacy: [https://huggingface.co/latincy](https://huggingface.co/latincy){:target="_blank"}; [https://spacy.io/universe/project/latincy](https://spacy.io/universe/project/latincy){:target="_blank"}; [https://arxiv.org/abs/2305.04365](https://arxiv.org/abs/2305.04365){:target="_blank"})
-- Deucalion (Old French; [https://zenodo.org/record/3237455](https://zenodo.org/record/3237455){:target="_blank"}; lemmas from the Tobler‑Lommatzsch +  POS from  Cattex; for Pie)
-- Middle High German (Middle High German; TreeTagger)
-- PALM (TreeTagger)
-- Latin for TreeTagger (TreeTagger: [https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/){:target="_blank"})
-- LiLa Lemma Bank (Latin; no special software required: [https://lila-erc.eu/lodview/data/id/lemma/LemmaBank](https://lila-erc.eu/lodview/data/id/lemma/LemmaBank){:target="_blank"})
-- Old French lemmatization (Old French; TreeTagger: [https://github.com/CristinaGHolgado/old-french-lemmatization](https://github.com/CristinaGHolgado/old-french-lemmatization){:target="_blank"})
-- eHumanities Desktop (Latin; MarMoT [https://www.texttechnologylab.org/applications/ehumanities-desktop/](https://www.texttechnologylab.org/applications/ehumanities-desktop/){:target="_blank"})
-- Perseus TreeBank (Latin; [https://github.com/PerseusDL/treebank_data/tree/master/v2.0/Latin](https://github.com/PerseusDL/treebank_data/tree/master/v2.0/Latin){:target="_blank"})
-- CLTK (several ancient languages: Latin; Old English; Middle English; Middle High German; etc.: [https://legacy.cltk.org/en/latest/index.html](https://legacy.cltk.org/en/latest/index.html){:target="_blank"}) 
+### OMNIA
+{: .mb-3 }
 
+(Latin, especially medieval Latin; TreeTagger)[https://glossaria.eu/lemmatisation/#page-content](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}
+
+OMNIA was designed to be implemented in [TreeTagger](https://www.cis.lmu.de/~schmid/tools/TreeTagger/){:target="_blank"}, which was developed for morphosyntactic tagging (_POS - Part of Speech_), but which also supports lemmatization. OMNIA provides both the parameters required for use with medieval Latin texts, and the files needed to recreate these parameters.
+
+Web page: [OMNIA](https://glossaria.eu/lemmatisation/#page-content){:target="_blank"}
+
+---
+
+### Lasla 
+{: .mb-3 }
+
+(Latin; Pie, via Latin Deucalion + Collatinus model)[https://www.lasla.uliege.be/cms/c_8570393/fr/lasla-logiciels](https://www.lasla.uliege.be/cms/c_8570393/fr/lasla-logiciels){:target="_blank"}
+
+---
+
+### Achim Stein 
+{: .mb-3 }
+
+(old French; TreeTagger)
+
+---
+
+### LatinCy 
+{: .mb-3 }
+
+(Latin; Spacy: [https://huggingface.co/latincy](https://huggingface.co/latincy){:target="_blank"}; [https://spacy.io/universe/project/latincy](https://spacy.io/universe/project/latincy){:target="_blank"}; [https://arxiv.org/abs/2305.04365](https://arxiv.org/abs/2305.04365){:target="_blank"})
+
+---
+
+### Deucalion 
+{: .mb-3 }
+
+(Old French; [https://zenodo.org/record/3237455](https://zenodo.org/record/3237455){:target="_blank"}; lemmas from Tobler-Lommatzsch + POS from Cattex; for Pie)
+
+---
+
+### Middle High German 
+{: .mb-3 }
+
+(Middle High German; TreeTagger)
+
+---
+
+### PALM 
+{: .mb-3 }
+
+(TreeTagger)[http://palm.huma-num.fr/PALM/](http://palm.huma-num.fr/PALM/){:target="_blank"}
+
+The PALM platform (Plateforme d'analyse linguistique médiévale) is designed for the processing of medieval texts (MEDITEXT): it is a system aimed less at philologists than at historians or philosophers who, wishing to undertake lexicometric or semantic research, come up against the absence of a standardized orthography and the geographical and chronological variability of medieval lexicons.
+
+Through flexible text annotation, it enables semi-automated orthographic standardization and lemmatization of medieval texts in English, French and Latin. 
+
+Web page: [PALM](http://palm.huma-num.fr/PALM/){:target="_blank"}
+
+[Download PALM presentation](/assets/doc/Palm.zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
+
+---
+
+### Latin for TreeTagger 
+{: .mb-3 }
+
+(TreeTagger: [https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/){:target="_blank"})
+
+---
+
+### LiLa Lemma Bank 
+{: .mb-3 }
+
+(Latin; no specific software: [https://lila-erc.eu/lodview/data/id/lemma/LemmaBank](https://lila-erc.eu/lodview/data/id/lemma/LemmaBank){:target="_blank"})
+
+---
+
+### Old French lemmatization 
+{: .mb-3 }
+
+(Old French; TreeTagger: [https://github.com/CristinaGHolgado/old-french-lemmatization](https://github.com/CristinaGHolgado/old-french-lemmatization){:target="_blank"})
+
+---
+
+### eHumanities Desktop 
+{: .mb-3 }
+
+(Latin; MarMoT [https://www.texttechnologylab.org/applications/ehumanities-desktop/](https://www.texttechnologylab.org/applications/ehumanities-desktop/){:target="_blank"})
+
+---
+
+### Perseus TreeBank 
+{: .mb-3 }
+
+(Latin; [https://github.com/PerseusDL/treebank_data/tree/master/v2.0/Latin](https://github.com/PerseusDL/treebank_data/tree/master/v2.0/Latin){:target="_blank"})
+
+---
+
+### CLTK
+{: .mb-3 }
+
+(several ancient languages: Latin; Old English; Middle English; Middle High German; etc.: [https://legacy.cltk.org/en/latest/index.html](https://legacy.cltk.org/en/latest/index.html){:target="_blank"}) 
 
 ## Lemmatization post-processing tools
 
