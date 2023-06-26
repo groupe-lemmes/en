@@ -16,3 +16,5 @@ Scientific director: [Eliana Magnani](https://www.pantheonsorbonne.fr/page-perso
 Site designer/editor: [Andrey Grunin](https://cv.hal.science/andrey-grunin){:target="_blank"} (CNRS - CIHAM)
 
 Contact: eliana.magnani[at]univ-paris1.fr
+
+_Machine translation into English with DeepL_
