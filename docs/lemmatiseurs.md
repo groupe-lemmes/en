@@ -55,6 +55,7 @@ Website: [spaCy](https://spacy.io/usage/spacy-101){:target="_blank"}
 Pie is a language independant lemmatizer implemented in python and built for "variation-rich languages" which includes Latin. It's a deep learning tool that can be trained and retrained with data in TSV format. As of 2019, it seems to be one of the state-of-the-art lemmatizers in terms of results. It can be trained jointly on morphology, POS and lemmatization tasks. 
 
 Website: [Pie (and Deucalion/Flask Pie)](https://wiki.digitalclassicist.org/Deucalion_and_Pie_lemmatizers){:target="_blank"}
+
 Liens supplémentaires:
 - [Pie Extended](https://github.com/hipster-philology/nlp-pie-taggers){:target="_blank"}
 - [PIE: A Framework for Joint Learning of Sequence Labeling Tasks](https://github.com/emanjavacas/pie){:target="_blank"}
