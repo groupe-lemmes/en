@@ -34,7 +34,7 @@ Website: [TreeTagger](https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/)
 
 Collatinus is both a lemmatizer and a morphological analyzer for Latin texts: if given a declension or conjugation form, it can find out which word to look up in the dictionary to get its translation into another language, its different meanings, and all the other data a dictionary usually provides.
 
-In practice, it's especially useful for Latin teachers, who can quickly give their pupils a new text with lexical support, based on a text that's not in the textbook. Students often use it to read Latin more easily when their lexical and morphological knowledge is still insufficient.
+Although originally designed for Latin teachers, Collatinus has been expanded over the years to include a number of tools of interest to medievalists. In particular, it allows you to consult various dictionaries, including some dedicated to medieval Latin, some in image mode and others in full text (Du Cange and Köbler). As the different dictionaries don't necessarily provide the same information, it can be handy to switch from one to the other with a single click. On the other hand, TextiColor can be a useful tool for spotting typos in the OCR of Latin text. Scansion and accentuation are also possible with Collatinus and can be applied, for example, to the study of metrical or rhythmic poetry. The use of cursus in prose can also help with dating. Further details can be found here: [Lemmatiser-avec-Collatinus3 ](/assets/doc/Lemmatiser_avec_Collatinus3.pdf)
 
 Website: [Collatinus](https://outils.biblissima.fr/fr/collatinus/){:target="_blank"}
 
@@ -55,6 +55,10 @@ Website: [spaCy](https://spacy.io/usage/spacy-101){:target="_blank"}
 Pie is a language independant lemmatizer implemented in python and built for "variation-rich languages" which includes Latin. It's a deep learning tool that can be trained and retrained with data in TSV format. As of 2019, it seems to be one of the state-of-the-art lemmatizers in terms of results. It can be trained jointly on morphology, POS and lemmatization tasks. 
 
 Website: [Pie (and Deucalion/Flask Pie)](https://wiki.digitalclassicist.org/Deucalion_and_Pie_lemmatizers){:target="_blank"}
+Liens supplémentaires:
+- [Pie Extended](https://github.com/hipster-philology/nlp-pie-taggers){:target="_blank"}
+- [PIE: A Framework for Joint Learning of Sequence Labeling Tasks](https://github.com/emanjavacas/pie){:target="_blank"}
+- [Deucalion](https://dh.chartes.psl.eu/deucalion/){:target="_blank"}
 
 ---
 
@@ -252,16 +256,5 @@ Pyrrha is a simple Python Flask WebApp for accelerating the post-correction of l
 Website: [Pyrrha](https://dh.chartes.psl.eu/pyrrha){:target="_blank"}
 
 [Download the Pyrrha presentation](/assets/doc/Pyrrha.zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
-
-
-
-
-
-
-
-
-
-
-
 
 

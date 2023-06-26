@@ -29,7 +29,7 @@ Contributors:
 
 ## What is lemmatization?
 
-Lemmatization is the process of deflexionizing words to determine their lemma (as in a dictionary entry). Flexionized words are called lexemes.
+Lemmatization is the reverse process of inflection (declension or conjugation). It associates with a lemma (a dictionary entry) all the inflected forms that come from it. These are the declension forms for a noun or adjective, and the conjugation forms for a verb. Lemmatization therefore consists in assigning a lemma to an inflected form. In addition to the flexion itself, there can be graphic variations for the same form. An inflected form is sometimes called a "lexeme".
 
 In the case of inflectional languages with high graphic variation, such as those used in the medieval West - Latin and vernacular languages - the development of formalized, computer-aided search procedures involves lemmatizing the texts used. This process - whether manual, semi-automated or automated - is nothing new, but in recent years several lemmatizers or parameters for lemmatizing medieval languages have been created.
 
@@ -60,8 +60,8 @@ In both cases, manual work is required upstream, either to establish a lexicon a
 Lemmatization comprises several main stages:
 - The acquisition of the digitized text (or corpus of texts) is a prerequisite for lemmatization. This can be done in a number of ways: using pre-existing files, manual input, or using automatic optical character recognition (OCR - _Optical Character Recognition_) or handwriting recognition (HTR - _Handwritten Text Recognition_).
 - The preparation of files consists, on the one hand, in saving them with UTF-8 encoding and in .TXT in general, and on the other hand, in the post-correction process, particularly for texts acquired by OCR or HTR.
-- The preparation of metadata, generally gathered in a .CSV file, concerns in particular file names and dates.
-- Tokenization consists of the desired formatting of the text (standardization of spelling, separation or not of enclitics, etc.), its division by lexeme, a word or a punctuation mark per line.
+- This is not necessarily linked to lemmatization, but when building up a corpus of texts, you need to think about the preparation of metadata, which is usually contained in a .CSV file. Metadata includes file names and dates.
+- Tokenization consists of the desired formatting of the text (standardization of spelling, separation or not of enclitics, etc.), its division by lexeme, a word or a punctuation mark per line. Tokenization is optional and may or may not be included in the tools.
 - Actual lemmatization involves morphosyntactic tagging of forms (_POS-tagging_ = _part-of-speech tagging_), i.e. assigning a POS to each token (noun, adjective, preposition, conjunction, punctuation, etc., whether or not associated with mode, case or number). Label sets vary from one tool to another: 9 labels for Medieval Latin in OMNIA, 91 labels for Classical Latin in Collatinus, for example. The lemma for each form is usually assigned after the POS.
 - Recomposition of files, with tokens, lemmas and metadata.
 
