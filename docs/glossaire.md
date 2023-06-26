@@ -110,10 +110,10 @@ of text:
    text, or thanks to the internal converters (save as,
    export), or through specialized external converters.
 
-* <a name="shape">**shape**</a> --
+* <a name="form">**form**</a> --
 A form is one of the elements of the [flexion](#flexion) of a lemma.
 When we conjugate a verb, we cite one after the other all the forms
-of the verb. Each shape can be labeled by a series of [lines
+of the verb. Each form can be labeled by a series of [lines
 morphological](#trait): gender, number, case, person, mode, tense, voice, etc.
 Some [POS](#pos) have only one form, like the Latin preposition _ad_.
 Others have more than a hundred, like verbs.
@@ -151,14 +151,11 @@ there are several solutions, as for the word _avions_, given as an example in th
 find **all** the lemmas that can produce a given form, or find **the** lemma
 that the author of the text used to produce this form.
 The lemmatization of a text is done in several steps:
-     1. [Tokenization](#tokenization) is transforming text into a list of shapes. This operation
-     is not very difficult, but the encoding in UTF-8 sometimes reserves surprises, in
-     using two characters to display only one.
+     1. [Tokenization](#tokenization) is transforming text into a list of shapes.
      1. The search for suffixes foreign to the lemma (in Latin, _-que, -ue, -ne_);
      1. Taking into account the [ramiste](#ramus) spelling, [graphic variants](#vargraph)
      1. Lemmatization itself: what lemmas can give this form?
-     1. In case of multiple answers, the ranking of the results, starting with the
-     more likely.
+     1. In case of multiple answers, the ranking of the results, starting with the more likely.
 
 * <a name="lemma">**lemma**</a> --
 A **lemma** is the constituent unit of a lexicon. In Latin, a lemma can
@@ -262,9 +259,7 @@ human who proceeds to a first labeling, and the computer takes over.
 
 * <a name="tokenization">**tokenization, token**</a> --
 Tokenization consists of transforming the text into a list of shapes, or
-_tokens_. This operation is not very difficult, but the encoding in
-UTF-8 sometimes holds surprises, using two characters for
-display only one.
+_tokens_.
 
 * <a name="trait">**morphological trait**</a> --
 Which form to choose when we want to use a lemma in a statement?
