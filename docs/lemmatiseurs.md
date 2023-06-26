@@ -266,8 +266,6 @@ Pyrrha is a simple Python Flask WebApp for accelerating the post-correction of l
 
 Website: [Pyrrha](https://dh.chartes.psl.eu/pyrrha){:target="_blank"}
 
-Additional link: [Building infrastructure for annotating medieval, classical and pre-orthographic languages: the Pyrrha ecosystem](https://hal.science/hal-03606756v1){:target="_blank"}
-
 [Download the Pyrrha presentation](/assets/doc/Pyrrha.zip){: .btn .btn-green .fw-300 .text-grey-lt-000 }
 
 
