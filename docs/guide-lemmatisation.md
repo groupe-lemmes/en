@@ -23,6 +23,9 @@ Contributors:
 - Eliana Magnani
 - Nicolas Perreaux
 - Ariane Pinche
+- Thibault Clérice
+- Philippe Verkerk
+
 {: .fs-4 .fw-300 .lh-tight}
 
 ## What is lemmatization?
